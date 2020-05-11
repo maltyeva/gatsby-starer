@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../components/header'
+import Header from '../components/header';
+import Layout from '../components/layout';
 
 export default () => (
-  <div style={{color: `teal`}}>
+  <Layout>
   <Header headerText="About me"/>
-  <Header headerText="Pretty cool"/>
-  </div>
+  </Layout>
   )
